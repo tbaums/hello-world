@@ -4,7 +4,7 @@ def VERSION = 'UNKNOWN'
 pipeline {
   agent none
   environment {
-    DOCKER_REPO_NAME = "cmays/hello-world"
+    DOCKER_REPO_NAME = "tbaums/hello-world"
   }
 
   tools {
